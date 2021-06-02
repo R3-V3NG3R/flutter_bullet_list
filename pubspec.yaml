@@ -1,5 +1,5 @@
 name: flutter_bullet_list
-description: A new Flutter Plugin for ordered and unordered lists
+description: A Flutter package for web-like ordered and unordered lists with multi-level items and customizable bullet styles.
 version: 0.0.2
 homepage: https://github.com/R3-V3NG3R/flutter_bullet_list
 
