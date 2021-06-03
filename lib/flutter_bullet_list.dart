@@ -16,7 +16,6 @@ class FlutterBulletList extends StatelessWidget {
   final BulletType bulletType;
   final Color bulletColor;
   final double bulletSpacing;
-  final double levelPadding;
 
   const FlutterBulletList({
     @required this.data,
@@ -26,7 +25,6 @@ class FlutterBulletList extends StatelessWidget {
     this.bulletType = BulletType.dot,
     this.bulletColor = Colors.black,
     this.bulletSpacing = 6.0,
-    this.levelPadding = 24.0,
   }) : assert(data != null);
 
   @override
@@ -42,7 +40,6 @@ class FlutterBulletList extends StatelessWidget {
               bulletSpacing: bulletSpacing,
               spaceBetweenItem: spaceBetweenItem,
               textStyle: textStyle,
-              levelPadding: levelPadding,
             ),
           )
           .toList(),

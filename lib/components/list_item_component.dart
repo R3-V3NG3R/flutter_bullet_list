@@ -8,7 +8,6 @@ class _ListItemComponent extends StatelessWidget {
   final BulletType? bulletType;
   final Color? bulletColor;
   final double? bulletSpacing;
-  final double? levelPadding;
 
   const _ListItemComponent({
     @required this.item,
@@ -18,7 +17,6 @@ class _ListItemComponent extends StatelessWidget {
     @required this.bulletType,
     @required this.bulletColor,
     @required this.bulletSpacing,
-    @required this.levelPadding,
   }) : assert(item != null);
 
   @override
@@ -61,7 +59,6 @@ class _ListItemComponent extends StatelessWidget {
               data: item!.data,
               bulletType: kBulletTypeList[bulletType] ?? BulletType.dot,
               textStyle: textStyle,
-              levelPadding: levelPadding!,
               spaceBetweenItem: spaceBetweenItem!,
               bulletSpacing: bulletSpacing!,
               bulletSize: bulletSize!,
