@@ -7,3 +7,6 @@
 
 ## 0.0.3
 - Restructured code into modules
+
+## 0.0.4
+- Updated README.md with usage guidelines
