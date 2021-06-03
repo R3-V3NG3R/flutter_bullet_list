@@ -1,6 +1,6 @@
 part of '../flutter_bullet_list.dart';
 
-class ListItemComponent extends StatelessWidget {
+class _ListItemComponent extends StatelessWidget {
   final ListItemModel? item;
   final TextStyle? textStyle;
   final double? spaceBetweenItem;
@@ -10,7 +10,7 @@ class ListItemComponent extends StatelessWidget {
   final double? bulletSpacing;
   final double? levelPadding;
 
-  const ListItemComponent({
+  const _ListItemComponent({
     @required this.item,
     @required this.textStyle,
     @required this.spaceBetweenItem,
@@ -72,3 +72,4 @@ class ListItemComponent extends StatelessWidget {
     );
   }
 }
+

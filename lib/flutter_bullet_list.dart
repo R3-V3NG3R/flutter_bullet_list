@@ -3,7 +3,9 @@ library flutter_bullet_list;
 import 'package:flutter/material.dart';
 
 part './components/list_item_component.dart';
+
 part './constants/enums.dart';
+
 part './models/list_item_model.dart';
 
 class FlutterBulletList extends StatelessWidget {
@@ -32,7 +34,7 @@ class FlutterBulletList extends StatelessWidget {
     return Column(
       children: data!
           .map<Widget>(
-            (item) => ListItemComponent(
+            (item) => _ListItemComponent(
               item: item,
               bulletType: bulletType,
               bulletColor: bulletColor,
@@ -47,3 +49,4 @@ class FlutterBulletList extends StatelessWidget {
     );
   }
 }
+

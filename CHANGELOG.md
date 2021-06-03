@@ -4,3 +4,6 @@
 
 ## 0.0.2
 - Added Multilevel feature to the list items
+
+## 0.0.3
+- Restructured code into modules
