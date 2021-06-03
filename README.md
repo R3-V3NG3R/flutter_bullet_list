@@ -5,6 +5,6 @@
 - [x] Single-level Unordered list
 - [x] Customize Bullet point style
 - [x] Multi-level unordered list
-- [x] Add Icon to bullet point
+- [ ] Add Icon to bullet point
 - [ ] Add customizations to individual level 
  
